@@ -5,4 +5,5 @@
 
 .footer-text {
     color: var(--grey);
+    text-align: center;
 }

@@ -1,0 +1,32 @@
+/* .overview {
+    background-image: url('./../../../Images/OverviewBg.png');
+    height: 600px;
+} */
+
+.overview-description {
+    max-width: 593px;
+    /* background-color: rgba(0,0,0,0.29); */
+}
+
+.overview-paragraph {
+    color: #000;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.overview-heading {
+    text-align: initial;
+}
+
+.overview-img-div {
+    right: 0;
+}
+
+.overview-img {
+    height: 528px;
+    width: 263px;
+}
+
+.overview-data {
+    height: 50px;
+}

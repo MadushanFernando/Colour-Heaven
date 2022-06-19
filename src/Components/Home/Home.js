@@ -1,5 +1,7 @@
+import Overview from "./Overview/Overview";
+
 function Home(props) {
-    return <h1>this is home</h1>
+    return <Overview></Overview>
 }
 
 export default Home;

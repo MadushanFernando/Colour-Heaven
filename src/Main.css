@@ -3,6 +3,7 @@ html * {
 }
 
 .content {
+    width: 100%;
     max-width: 1200px;
 }
 
@@ -10,6 +11,26 @@ html * {
     font-size: 16px;
 }
 
+.fw-6 {
+    font-weight: 600;
+}
+
+.fc-white {
+    color: white;
+}
+
+.br-8 {
+    border-radius: 8px;
+}
+
 .nav-link {
     color: white;
+}
+
+.bg-blue {
+    background-color: var(--blue);
+}
+
+.bg-purple {
+    background-color: var(--purple);
 }
