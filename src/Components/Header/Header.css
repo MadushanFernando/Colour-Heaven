@@ -2,3 +2,12 @@
     height: 80px;
     background-color: var(--bg-dark-blue);
 }
+
+.logo {
+    left: 20px;
+    height: 110px;
+    width: 110px;
+    border-radius: 50%;
+    background-color: black;
+    background-image: url('./../../Images/Logo.png');
+}
