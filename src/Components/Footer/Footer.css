@@ -1,0 +1,8 @@
+.footer {
+    height: 100px;
+    background: var(--bg-dark-blue);
+}
+
+.footer-text {
+    color: var(--grey);
+}
