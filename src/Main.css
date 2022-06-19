@@ -9,3 +9,7 @@ html * {
 .fs-16 {
     font-size: 16px;
 }
+
+.nav-link {
+    color: white;
+}
