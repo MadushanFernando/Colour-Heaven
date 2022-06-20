@@ -25,7 +25,13 @@
 .overview-img {
     height: 528px;
     width: 263px;
+    animation: fadeIn 2s;
 }
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
 
 .overview-data {
     height: 50px;

@@ -5,7 +5,7 @@ function Overview(){
         <section className="w-100 overview py-4 position-relative d-flex justify-content-center container">
             <div className='content px-1 px-sm-3 px-md-5 position-relative row'>
                 <div className='overview-img-div col-12 col-lg-4 d-flex justify-content-center'>
-                    <img className='overview-img' src={require('./Smart-phone.png')}></img>
+                    <img className='overview-img' src={require('./../../../Images/Smart-phone.png')}></img>
                 </div>
                 <div className='overview-description overview-paragraph p-3 my-3 col-12 col-lg-8'>
                     <h1 className='overview-heading'>
