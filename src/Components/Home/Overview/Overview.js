@@ -1,6 +1,20 @@
+import { useEffect, useState } from 'react';
+import { FetchCollectionCount, FetchNftCount } from '../../../Api/Api';
 import './Overview.css';
 
 function Overview(){
+    const [nftCount, setNftCount] = useState();
+    const [collectionCount, setCollectionCount] = useState();
+
+    useEffect(() => {
+        (async function fetchCounts() {
+            setCollectionCount( await FetchCollectionCount());
+            setNftCount ( await FetchNftCount());
+        }
+
+        )();
+    },[]);
+
     return (
         <section className="w-100 overview py-4 position-relative d-flex justify-content-center container">
             <div className='content px-1 px-sm-3 px-md-5 position-relative row'>
@@ -16,10 +30,10 @@ function Overview(){
                     </p>
                     <div className='row d-flex justify-content-center'>
                         <div className='br-8 fc-white bg-blue col-10 overview-data mx-5 ms-sm-0 me-sm-3 mb-3 col-sm-4 text-center d-flex align-items-center justify-content-center fw-6'>
-                            4 Collections
+                            {collectionCount} Collections
                         </div>
                         <div className='br-8 fc-white bg-purple col-10 overview-data mx-5 mx-sm-0 col-sm-4 text-center d-flex align-items-center justify-content-center fw-6'>
-                            30 Nfts
+                            {nftCount} Nfts
                         </div>
                     </div>
                 </div>
