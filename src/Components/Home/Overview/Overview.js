@@ -11,7 +11,7 @@ function Overview(){
                     <h1 className='overview-heading'>
                         Welcome to Colour Heaven
                     </h1>
-                    <p className='overview-paragraph'>
+                    <p>
                         Colour Heaven is an ongoing unique art-creating project. It produces unique graphics using particular patterns and suiting colours. Colour Heaven collection has different sub-collections and each Colour Heaven sub-collection has its own pattern and colour palette to make them unique. Unique artworks for sub-collections will be released frequently until it reaches 20 for that sub-collection. After that, producing artworks using that pattern will be stopped.
                     </p>
                     <div className='row d-flex justify-content-center'>

@@ -2,6 +2,10 @@ html * {
     font-family: "Open Sans";
 }
 
+section {
+    max-width: 1000px !important;
+}
+
 .content {
     width: 100%;
     max-width: 1200px;

@@ -1,0 +1,15 @@
+.collections-carousel {
+    overflow: scroll;
+    height: 500px;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.collections-carousel::-webkit-scrollbar {
+    display: none;
+}
+
+.collections-carousel-inner {
+    display: inline-flex;
+    left: 0;
+}

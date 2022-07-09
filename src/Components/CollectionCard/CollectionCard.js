@@ -17,10 +17,10 @@ function CollectionsCard(props){
         //         Browse
         //     </div> style={"backgroundImage: `url("https://drive.google.com/thumbnail?id=${props.imgUrl}")`}}
         // </div>
-        <div className="card">
-            <div  className="card-img-top collection-card-img-top" 
+        <div className="card collection-card p-3 border-0">
+            <div  className="card-img-top collection-card-img-top rounded" 
                 style={{
-                    backgroundImage: `url("https://lh3.google.com/u/0/d/${props.imgUrl}")`
+                    backgroundImage: `url("https://drive.google.com/uc?export=view&id=${props.imgUrl}")`
                 }}
             >
             </div>
