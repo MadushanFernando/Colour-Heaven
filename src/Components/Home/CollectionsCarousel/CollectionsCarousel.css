@@ -3,6 +3,7 @@
     height: 500px;
     -ms-overflow-style: none;
     scrollbar-width: none;
+    max-width: 900px !important;
 }
 
 .collections-carousel::-webkit-scrollbar {
